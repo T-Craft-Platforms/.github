@@ -56,14 +56,14 @@ Avoid loose or unnamed branches.
 
 Rules:
 - Single-repo topic → create the issue in that repository
-- Multi-repo topic → create the issue in the `.github` repository
+- Multi-repo topic → create the issue in the `root` repository
 - Always link issues to a project if one exists  
 → See [Selecting a Project for an Issue](#selecting-a-project-for-an-issue)
 
 ### Projects
 - Use GitHub Projects (Kanban recommended) for planning and tracking.
 - When creating a project:
-  - Always select `.github` as the default repository
+  - Always select `root` as the default repository
   - This allows issues that span multiple repositories
 - After creation:
   - Go to each relevant repository
