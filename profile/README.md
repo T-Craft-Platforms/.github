@@ -78,12 +78,12 @@ Use organization-wide Discussions for:
 
 It is generally not recommended to create repository-specific discussions unless the repository is large.
 
+[//]: # (exclude)
+
 ---
 
 ## 🖼️ Visual Guidelines
-
 ### Selecting a Project for an Issue
-
 <img width="393" height="294" alt="Screenshot" src="https://github.com/user-attachments/assets/f89522d2-ed9c-4b13-9e77-a6507fc73cb1" />
 
 ### Creating a Branch for an Issue
