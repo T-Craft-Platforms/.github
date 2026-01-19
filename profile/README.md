@@ -12,7 +12,10 @@ The organization is not a company, does not pursue monetisation, and aims to kee
 ---
 
 ## 🔐 Repository Visibility & Ownership
-- Always create repositories as `internal` or `private` by default.
+- Always create repositories as `private` by default.
+- If you want to mark a repository as **internal only** (only for members), you must:
+  1. Mark the repository as `private`
+  2. Add the `@Everyone` team with at least `Read` access
 - Only set a repository to public if you are absolutely sure it is intended for open-source.
 - Never make a repository public if it:
   - Uses proprietary software
@@ -27,7 +30,7 @@ The organization is not a company, does not pursue monetisation, and aims to kee
 ## 🌿 Branching & Workflow
 - Never push directly to `main`, especially on public repositories.
   - For public repositories, a branch protection rule protecting at least the default branch must be configured.
-  - For internal repositories, branch protection is highly advised.
+  - For internal repositories (private with `@Everyone` team access), branch protection is highly advised.
   - For private repositories, branch protection is the responsibility of the repository maintainers, but is also highly advised.
 - Always:
   1. Create an issue
@@ -56,14 +59,14 @@ Avoid loose or unnamed branches.
 
 Rules:
 - Single-repo topic → create the issue in that repository
-- Multi-repo topic → create the issue in the [`root`](https://github.com/T-Craft-Platforms/root) repository
+- Multi-repo topic → create the issue in the [`.github`](https://github.com/T-Craft-Platforms/.github) repository
 - Always link issues to a project if one exists  
 → See [Selecting a Project for an Issue](#selecting-a-project-for-an-issue)
 
 ### Projects
 - Use GitHub Projects (Kanban recommended) for planning and tracking.
 - When creating a project:
-  - Always select [`root`](https://github.com/T-Craft-Platforms/root) as the default repository
+  - Always select [`.github`](https://github.com/T-Craft-Platforms/.github) as the default repository
   - This allows issues that span multiple repositories
 - After creation:
   - Go to each relevant repository
