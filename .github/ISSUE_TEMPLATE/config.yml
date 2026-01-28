@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Discussions
+    url: https://github.com/orgs/T-Craft-Platforms/discussions
+    about: >
+      For general questions, help, ideas, or discussions.
+      Issues are not a support ticket system and should only be used for
+      concrete technical topics related to a repository.
