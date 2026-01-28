@@ -34,7 +34,7 @@ body:
       label: Contribution
       description: Would you like to contribute to this maintenance task?
       options:
-        - Yes
-        - No
+        - Yes.
+        - No.
     validations:
       required: true

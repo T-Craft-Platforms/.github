@@ -21,7 +21,7 @@ body:
       label: Contribution
       description: Would you like to work on this documentation issue?
       options:
-        - Yes
-        - No
+        - Yes.
+        - No.
     validations:
       required: true
