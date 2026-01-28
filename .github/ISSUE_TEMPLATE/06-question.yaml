@@ -1,0 +1,23 @@
+name: Question
+description: Ask a question about this project.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Use Issues only for repository-specific questions.**
+
+        For general help, usage questions, ideas, or "how do I...?" questions, please use [Discussions](https://github.com/orgs/T-Craft-Platforms/discussions/categories/helpdesk-requests) instead.
+
+  - type: textarea
+    attributes:
+      label: Question
+      placeholder: Ask a clear, specific question about this repository.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      placeholder: Provide relevant code, configuration, or background information.

@@ -1,0 +1,58 @@
+name: Security Issue
+description: Report a security vulnerability or concern.
+title: "[Security] "
+labels: ["security"]
+assignees: ["TD99"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **For serious vulnerabilities, consider private disclosure.**
+
+        If this is a critical security issue, you may want to report it privately
+        rather than creating a public issue.
+
+  - type: textarea
+    attributes:
+      label: Security Concern
+      placeholder: Describe the security vulnerability or concern clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Affected Components
+      placeholder: Specify which components, versions, or configurations are affected.
+
+  - type: textarea
+    attributes:
+      label: Impact Assessment
+      placeholder: Explain the potential impact and who might be affected.
+
+  - type: textarea
+    attributes:
+      label: Reproduction Steps
+      placeholder: Provide steps to reproduce (if applicable and safe to share publicly).
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this security issue?
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you like to contribute a fix?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
