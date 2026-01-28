@@ -8,8 +8,7 @@ body:
       value: |
         ⚠️ **Use Issues only for repository-specific questions.**
 
-        For general help, usage questions, ideas, or "how do I...?" questions,
-        please use [Discussions](https://github.com/orgs/T-Craft-Platforms/discussions/categories/helpdesk-requests) instead.
+        For general help, usage questions, ideas, or "how do I...?" questions, please use [Discussions](https://github.com/orgs/T-Craft-Platforms/discussions/categories/helpdesk-requests) instead.
 
   - type: textarea
     attributes:
