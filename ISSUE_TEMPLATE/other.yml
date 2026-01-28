@@ -1,0 +1,17 @@
+name: Other
+description: Anything that doesn't fit other templates.
+title: "[Other] "
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: Describe the idea or topic in detail.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Confirmation
+      options:
+        - label: No existing template fits this issue.
+          required: true

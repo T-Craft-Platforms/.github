@@ -1,0 +1,38 @@
+name: License
+description: License-related questions or changes.
+title: "[License] "
+labels: ["license"]
+assignees: ["TD99"]
+body:
+  - type: dropdown
+    attributes:
+      label: Topic
+      options:
+        - License request
+        - License change
+        - License question
+        - Dependency license concern
+        - Clarification needed
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Details
+      placeholder: Describe the question or concern.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this issue?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true

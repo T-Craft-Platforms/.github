@@ -1,0 +1,27 @@
+name: Documentation
+description: Improvements or issues related to documentation.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    attributes:
+      label: What needs to be documented or fixed?
+      placeholder: Missing setup steps, outdated README section, unclear explanation.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Where is the documentation located or where should it be added?
+      placeholder: README, wiki, specific file, link.
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you like to work on this documentation issue?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
