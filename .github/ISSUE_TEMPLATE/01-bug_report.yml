@@ -5,27 +5,27 @@ labels: ["bug"]
 body:
   - type: textarea
     attributes:
-      label: What's broken?
-      placeholder: Describe the issue.
+      label: Issue Description
+      placeholder: Clearly describe the bug or unexpected behavior.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: How to reproduce
-      placeholder: Steps, logs, screenshots, etc.
+      label: Reproduction Steps
+      placeholder: Provide detailed steps, logs, or screenshots to reproduce the issue.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Environment
-      placeholder: OS, browser, versions, etc.
+      label: Environment Details
+      placeholder: OS, browser, versions, and other relevant environment information.
 
   - type: textarea
     attributes:
-      label: Expected behaviour
-      placeholder: What should have happened instead?
+      label: Expected Behavior
+      placeholder: Describe what should have happened instead.
 
   - type: dropdown
     id: priority
@@ -46,7 +46,7 @@ body:
       label: Contribution
       description: Would you like to contribute a fix?
       options:
-        - Yes.
-        - No.
+        - "Yes"
+        - "No"
     validations:
       required: true

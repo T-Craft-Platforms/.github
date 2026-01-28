@@ -6,16 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ **This is not a support ticket system.**
+        ⚠️ **Use Issues only for repository-specific questions.**
 
-        Use Issues only for questions directly related to this repository.
-
-        For:
-        - general help
-        - usage questions
-        - ideas or brainstorming
-        - "how do I...?" questions
-
+        For general help, usage questions, ideas, or "how do I...?" questions,
         please use [Discussions](https://github.com/orgs/T-Craft-Platforms/discussions/categories/helpdesk-requests) instead.
 
   - type: textarea
@@ -27,5 +20,5 @@ body:
 
   - type: textarea
     attributes:
-      label: Context
-      placeholder: Relevant code, configuration, or background.
+      label: Additional Context
+      placeholder: Provide relevant code, configuration, or background information.

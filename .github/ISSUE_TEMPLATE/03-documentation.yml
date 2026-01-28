@@ -5,15 +5,15 @@ labels: ["documentation"]
 body:
   - type: textarea
     attributes:
-      label: What needs to be documented or fixed?
-      placeholder: Missing setup steps, outdated README section, unclear explanation.
+      label: Documentation Issue
+      placeholder: Describe what needs to be documented or corrected (e.g., missing steps, outdated sections, unclear explanations).
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Where is the documentation located or where should it be added?
-      placeholder: README, wiki, specific file, link.
+      label: Location
+      placeholder: Specify where the documentation exists or should be added (e.g., README, wiki, specific file path).
 
   - type: dropdown
     id: contribution
@@ -21,7 +21,7 @@ body:
       label: Contribution
       description: Would you like to work on this documentation issue?
       options:
-        - Yes.
-        - No.
+        - "Yes"
+        - "No"
     validations:
       required: true

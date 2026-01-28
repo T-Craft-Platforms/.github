@@ -6,16 +6,16 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What do you want to add?
-      placeholder: Describe the feature or idea.
+      label: Feature Description
+      placeholder: Clearly describe the proposed feature or improvement.
     validations:
       required: true
 
   - type: textarea
     id: usefulness
     attributes:
-      label: Why is this useful?
-      placeholder: What problem does it solve?
+      label: Value Proposition
+      placeholder: Explain the problem this solves and the value it provides.
 
   - type: dropdown
     id: priority
@@ -36,7 +36,7 @@ body:
       label: Contribution
       description: Would you like to work on this feature?
       options:
-        - Yes.
-        - No.
+        - "Yes"
+        - "No"
     validations:
       required: true

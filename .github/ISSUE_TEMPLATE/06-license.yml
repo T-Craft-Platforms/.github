@@ -19,8 +19,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Details
-      placeholder: Describe the question or concern.
+      label: Description
+      placeholder: Provide details about your license question or concern.
     validations:
       required: true
 

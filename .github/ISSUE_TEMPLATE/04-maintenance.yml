@@ -5,15 +5,15 @@ labels: ["maintenance"]
 body:
   - type: textarea
     attributes:
-      label: What needs to be configured or maintained?
-      placeholder: CI config, Kubernetes settings, version bumps.
+      label: Maintenance Task
+      placeholder: Describe what needs to be configured or maintained (e.g., CI config, dependencies, refactoring).
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Why is this maintenance needed?
-      placeholder: Reasoning or background.
+      label: Justification
+      placeholder: Explain why this maintenance is necessary.
 
   - type: dropdown
     id: priority
@@ -34,7 +34,7 @@ body:
       label: Contribution
       description: Would you like to contribute to this maintenance task?
       options:
-        - Yes.
-        - No.
+        - "Yes"
+        - "No"
     validations:
       required: true
